@@ -27,7 +27,7 @@ In this experimant, we used the <a href="./src/dice_coef_multiclass.py"><b>dice_
 as a metic function. For more information see the second experiment 
 <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Bladder-Cancer-New-Dice-Metric">
 TensorFlow-FlexUNet-Image-Segmentation-Bladder-Cancer-MRI-New-Dice-Metric</a>.
-<br><br>
+<br>
 <hr>
 <b>Actual Image Segmentation for Knee X-Ray Images</b><br>
 As shown below, the inferred masks resemble the ground-truth masks. <br>
