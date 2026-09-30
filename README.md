@@ -98,9 +98,7 @@ Digital Knee X-Rays: 1,650 grayscale, 8-bit images captured using a PROTEC PRS 5
 Expert Annotations: Each image is labeled by two medical experts with its K&L grade, likely in filenames 
 or a metadata file.<br>
 Cartilage Insights: Includes a novel approach to extract cartilage regions of interest (ROIs) based on pixel density—ROI details may be included (check the files!).
-
 <br><br>
-
 <b>License</b><br>
 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
 <br>
