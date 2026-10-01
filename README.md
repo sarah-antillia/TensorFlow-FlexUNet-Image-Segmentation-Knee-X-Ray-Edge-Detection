@@ -283,13 +283,13 @@ discouraging results.
  However, as training progressed through the epochs, the predictions gradually improved. 
  <br> 
 <br>
-<b>Epoch_change_inference output at starting (epoch 1,2,3)</b><br>
+<b>Epoch_change_inference output at starting (epoch 1, 2, 3, 4)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Knee-X-Ray/asset/epoch_change_infer_at_start.png" width="1024" height="auto"><br>
 <br>
-<b>Epoch_change_inference output at middlepoint (epoch 23,24,25)</b><br>
+<b>Epoch_change_inference output at middlepoint (epoch 22, 23, 24, 25)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Knee-X-Ray/asset/epoch_change_infer_at_middle.png" width="1024" height="auto"><br>
 <br>
-<b>Epoch_change_inference output at ending (epoch 47,48,49)</b><br>
+<b>Epoch_change_inference output at ending (epoch 46, 47, 48, 49)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Knee-X-Ray/asset/epoch_change_infer_at_end.png" width="1024" height="auto"><br>
 <br>
 In this experiment, the training process was stopped at epoch 49 by EarlyStoppingCallback.<br>
