@@ -110,7 +110,7 @@ Cartilage Insights: Includes a novel approach to extract cartilage regions of in
  If you would like to train this Knee-X-Ray Segmentation model,
  please download the dataset from Google Drive  
  <a href="https://drive.google.com/file/d/1KVuk9BmTqL7PNXAjwF0RVC2Jczz2VOzf/view?usp=sharing">
-Augmented-Knee-X-Ray-ImageMask-Dataset-V3.zip</a>. 
+Augmented-Knee-X-Ray-ImageMask-Dataset.zip</a>. 
 Expand the downloaded ImageMaskDataset and put it under the <b>./dataset</b> folder.
 <br>
 <pre>
@@ -230,7 +230,7 @@ and weight parameters <b>hybrid_alpha</b> and <b>hybrid_beta</b> for <b>dice_coe
 [model]
 loss           = "categorical_focal_dice_loss"
 metrics        = ["dice_coef_hybrid"]
-; Experimental two weight parameters to calcuate "dice_coef_hybrid" metric.
+; Experimental two weight parameters to calculate "dice_coef_hybrid" metric.
 hybrid_alpha   = 1.7
 hybrid_beta    = 0.3
 </pre>
