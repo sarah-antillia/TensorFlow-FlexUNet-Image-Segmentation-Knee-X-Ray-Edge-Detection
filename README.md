@@ -210,7 +210,7 @@ generator     =  False
 image_width    = 512
 image_height   = 512
 image_channels = 3
-num_classes    = 3
+num_classes    = 5
 base_filters   = 16
 base_kernels   = (11,11)
 num_layers     = 8
@@ -256,7 +256,7 @@ Enabled early stopping callback with the patience parameter.
 patience      = 10
 </pre>
 <b>RGB Color map</b><br>
-Specified RGB color map dict for Knee-X-Ray 1+2 classes.<br>
+Specified RGB color map dict for Knee-X-Ray 1+4 classes.<br>
 <pre>
 [mask]
 mask_datatyoe    = "categorized"
