@@ -24,7 +24,7 @@ Edge_Detection masks in <b>MedicalExpert-I</b> of
 <br>
 <br>
 In this experimant, we used the <a href="./src/dice_coef_multiclass.py"><b>dice_coef_hybrid</b></a> Dice Coefficient 
-as a metic function. For more information see the second experiment 
+as a metic function. For more information see our experiment 
 <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Bladder-Cancer-New-Dice-Metric">
 TensorFlow-FlexUNet-Image-Segmentation-Bladder-Cancer-MRI-New-Dice-Metric</a>.
 <br>
