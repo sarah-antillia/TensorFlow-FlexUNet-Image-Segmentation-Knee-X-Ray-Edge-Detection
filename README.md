@@ -167,7 +167,7 @@ It consits of the four grades, Doubtful,Mild, Moderate and Severe data.
 <br>
 <b>Step 1</b><br>
 We generated a 2x enlarged Image and Edge Mask master dataset with colorized masks 
-<b>(Doubtfu: green, Mild: cyan, Moderate: yellow, Severe: dark_red) </b>
+<b>(Doubtful: green, Mild: cyan, Moderate: yellow, Severe: dark_red) </b>
 from the images in <b>Images</b> and the corresponding 
 masks in <b>Edges</b>.<br>
 <br>
@@ -199,7 +199,7 @@ This runs the following command.<br>
 <hr>
 
 <b>Model parameters</b><br>
-Defined a small <b>base_filters=16 </b> and large <b>base_kernels=(9,9)</b> for the first Conv Layer of Encoder Block of 
+Defined a small <b>base_filters=16 </b> and large <b>base_kernels=(11,11)</b> for the first Conv Layer of Encoder Block of 
 <a href="./src/TensorFlowFlexUNet.py">TensorFlowFlexUNet.py</a> 
 and a large <b>num_layers=8</b> (including a bridge between Encoder and Decoder Blocks).
 <pre>
